@@ -57,3 +57,12 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+// Captcha require Script
+window.onload = function() {
+    var $recaptcha = document.querySelector('#g-recaptcha-response');
+
+    if($recaptcha) {
+        $recaptcha.setAttribute("required", "required");
+    }
+};
