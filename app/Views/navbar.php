@@ -10,6 +10,7 @@
                 <li class="nav-item"><a class="nav-link" href="#services">Our Values</a></li>
                 <li class="nav-item"><a class="nav-link" href="#portfolio">Our Product</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </div>
     </div>
