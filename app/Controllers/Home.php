@@ -64,6 +64,13 @@ class Home extends BaseController
                 $mail->Password = 'dvscwmqsnbhanpbc';
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                 $mail->Port = '587';
+                $mail->SMTPOptions = array(
+                    'ssl' => array(
+                        'verify_peer' => false,
+                        'verify_peer_name' => false,
+                        'allow_self_signed' => true
+                    )
+                );
 
                 $mail->setFrom('testdummyletter@gmail.com');
                 $mail->addAddress('testdummyletter@gmail.com');
