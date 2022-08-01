@@ -1,4 +1,4 @@
-<section class="page-section" id="services">
+<!-- <section class="page-section" id="ourvalues">
     <div class="container px-4 px-lg-5">
         <h2 class="text-center mt-0">Our Values</h2>
         <hr class="divider" />
@@ -33,4 +33,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->

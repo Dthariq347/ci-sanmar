@@ -20,7 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 
     <!-- bootstarp -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- SimpleLightbox plugin CSS-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
@@ -43,7 +43,8 @@
     <!-- about wave -->
     <?= $this->include('aboutwave'); ?>
 
-
+    <!-- our values-->
+    <?= $this->include('journey'); ?>
     <!-- our values-->
     <?= $this->include('ourvalues'); ?>
 
@@ -61,35 +62,12 @@
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <!-- SimpleLightbox plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    <!-- oas animate  -->
-    <!-- <script src="dist/aos.js"></script>
-    <script>
-        document.querySelector('html').classList.remove('no-js');
-        if (!window.Cypress) {
-            const scrollCounter = document.querySelector('.js-scroll-counter');
-
-            AOS.init({
-                mirror: true
-            });
-
-            document.addEventListener('aos:in', function(e) {
-                console.log('in!', e.detail);
-            });
-
-            window.addEventListener('scroll', function() {
-                scrollCounter.innerHTML = window.pageYOffset;
-            });
-        }
-    </script> -->
 </body>
 
 </html>
