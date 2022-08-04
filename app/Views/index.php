@@ -7,9 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>sanmarfarm.id</title>
+    <title>sanmarfarm</title>
+    <!-- darkmode -->
+    <link id="css-dark" rel="stylesheet" href="css/bootstrap-night.css" media="(prefers-color-scheme: dark)">
+    <!-- ... and then the primary CSS last for a fallback on very old browsers that don't support media filtering -->
+    <link id="css-light" rel="stylesheet" href="css/bootstrap.css" media="(prefers-color-scheme: light)">
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/img/logo 1.png" />
+    <link rel="icon" type="image/x-icon" href="assets/img/logo 2 (Custom).png" />
     <!-- Bootstrap Icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Google fonts-->
@@ -68,6 +72,8 @@
     <!-- SimpleLightbox plugin JS-->
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <!-- dark mode -->
+
 </body>
 
 </html>

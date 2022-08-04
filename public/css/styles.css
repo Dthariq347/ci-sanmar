@@ -2471,6 +2471,7 @@ textarea.form-control-lg {
   padding-left: 1.5em;
   margin-bottom: 0.125rem;
 }
+
 .form-check .form-check-input {
   float: left;
   margin-left: -1.5em;
@@ -4057,6 +4058,17 @@ textarea.form-control-lg {
   text-decoration: none;
   white-space: nowrap;
 }
+@media (max-width: 650px) {
+  .navbar-brand {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none
+  }
+}
+
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -11276,6 +11288,64 @@ hr.divider-light {
     display: block;
     padding: 0;
     border: none;
+  }
+}
+
+/* journey */
+
+.goals {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.text-goals {
+  width: 50%;
+  padding: 20px;
+}
+.goals p {
+  height: 100%;
+  font-size: 28px;
+  line-height: 33px;
+  font-family: "Roboto";
+  margin-top: 50px;
+}
+.image-goals {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.goals img {
+  padding: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .judul-goals {
+    font-size: 20px;
+  }
+  .goals {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    height: 100%;
+  }
+  .text-goals {
+    padding: 30px 0;
+    width: 100%;
+  }
+  .goals p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .image-goals {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    order: 0;
+  }
+  .image-goals img {
+    max-width: 100%;
+    margin-top: 0px;
   }
 }
 /* carousel */

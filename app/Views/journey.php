@@ -4,10 +4,10 @@
         <hr class="divider" />
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="image-goals">
                     <img class="card-img-top" src="assets/img/portfolio/Sanmar_product_1.jpg" alt="Card image cap">
                 </div>
-                <div class="col">
+                <div class="text-goals">
                     <p class="lead">in the past year we have built a culture of trust in our team. and with what we apply hopefully this will be your main capital to trust us as your business partner.</p>
                     <br>
                     <p class="lead">The products we offer guarentee various proofs of the standard lecenses needed both in the domestic market and the international market, to guarantee it is all our responsibility, your satisfaction is number one for us.</p>
