@@ -4,7 +4,7 @@
         <img class="img-fluid" src="assets/img/logo 3.png" alt="..." />
         <a class="navbar-brand" href="#page-top">PT. Mandiri Kharisma Berkah Nusantara</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="collapse navbar-collapse" id="navbarResponsive" toggle="collapse" data-target=".navbar-collapse">
             <ul class="navbar-nav ms-auto my- my-lg-5">
                 <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#journey">Journey</a></li>
