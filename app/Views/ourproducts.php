@@ -28,7 +28,9 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <img class="card-img-top" src="assets/img/portfolio/Sanmar_1.jpg" alt="Card image cap">
+                                            <div>
+                                                <img class="card-img-top" src="assets/img/portfolio/Sanmar_1.jpg" alt="Card image cap">
+                                            </div>
                                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur maiores impedit obcaecati quos, mollitia repellendus placeat ea itaque a totam debitis cupiditate quo consequatur amet exercitationem. Accusamus esse ducimus veniam.</p>
                                         </div>
                                         <div class="modal-footer">
@@ -60,7 +62,7 @@
                                 <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                            <h5 class="modal-title" id="staticBackdropLabel">mangosteen</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">

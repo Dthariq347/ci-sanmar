@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="image-goals">
-                    <img class="card-img-top" src="assets/img/portfolio/Sanmar_product_1.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="assets/img/portfolio/sanmar_journey_1.png" alt="Card image cap">
                 </div>
                 <div class="text-goals">
                     <p class="lead">in the past year we have built a culture of trust in our team. and with what we apply hopefully this will be your main capital to trust us as your business partner.</p>

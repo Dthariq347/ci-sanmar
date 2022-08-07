@@ -11301,7 +11301,7 @@ hr.divider-light {
 }
 .text-goals {
   width: 50%;
-  padding: 20px;
+  padding: 25px;
 }
 .goals p {
   height: 100%;
@@ -11314,9 +11314,12 @@ hr.divider-light {
   display: flex;
   justify-content: center;
   width: 50%;
+  padding: 10px;
+  
 }
 .goals img {
   padding: 20px;
+  box-shadow: 10px;
 }
 @media only screen and (max-width: 768px) {
   .judul-goals {
