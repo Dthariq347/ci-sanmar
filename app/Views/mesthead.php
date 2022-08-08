@@ -27,7 +27,7 @@
                 <div class="carousel-caption text-start">
                     <div class="align-self-end">
                         <h3 class="text-white-75 text-lg-left mb-8">Sanmar Nusantara</h3>
-                        <h1 class="text-white text-lg-left font-italic">Number one supplier of spice products and fruits products from Indonesia
+                        <h1 class="text-white text-lg-left font-italic">Number one supplier of spice products from Indonesia
                         </h1>
                         <hr class="divider" />
                     </div>
@@ -41,7 +41,7 @@
                 <div class="carousel-caption text-start">
                     <div class="align-self-end">
                         <h3 class="text-white-75 text-lg-left mb-8">Sanmar Nusantara</h3>
-                        <h1 class="text-white text-lg-left font-italic">Number one supplier of spice products and fruits products from Indonesia
+                        <h1 class="text-white text-lg-left font-italic">Number one supplier of fruits products from Indonesia
                         </h1>
                         <hr class="divider" />
                     </div>

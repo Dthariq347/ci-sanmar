@@ -11323,7 +11323,7 @@ hr.divider-light {
   padding: 20px;
   box-shadow: 10px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .judul-goals {
     font-size: 20px;
   }
