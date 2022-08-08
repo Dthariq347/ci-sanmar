@@ -36,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" style="background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 25%), url('../assets/img/ricefield.jpg');">
+            <div class="carousel-item" style="background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 25%), url('../assets/img/sanmar_bg.jpg');">
                 <div class="darkoverlay"></div>
                 <div class="carousel-caption text-start">
                     <div class="align-self-end">
