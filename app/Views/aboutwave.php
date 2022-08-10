@@ -12,6 +12,7 @@
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8 text-center">
+                    <img class="" src="assets/img/semarsan logo white.png" alt="..." />
                     <h2 class="text-white mt-0">We've got what you need about local farmers!</h2>
                     <hr class="divider divider-light" />
                     <p class="text-white-75 mb-4">This company was founded to distribute Indonesia products to the world, through international trade!</p>
