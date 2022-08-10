@@ -11466,3 +11466,8 @@ header.masthead h1, header.masthead .h1 {
   z-index: -999999;
   opacity: 0;
 }
+
+/* About */
+#image_about {
+  margin-left: 1rem;
+}

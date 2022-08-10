@@ -27,7 +27,7 @@
                 <div class="carousel-caption text-center">
                     <div class="align-self-end">
 
-                        <h1 class="text-white text-lg-left font-italic">Number one supplier of spice products from Indonesia
+                        <h1 class="text-white text-lg-left font-italic" style="font-family: 'Dancing Script';">Number one supplier of spice products from Indonesia
                         </h1>
                         <hr class="divider" />
                     </div>
@@ -41,7 +41,7 @@
                 <div class="carousel-caption text-center ">
                     <div class="align-self-end">
 
-                        <h1 class="text-white text-lg-left font-italic">Number one supplier of fruits products from Indonesia
+                        <h1 class="text-white text-lg-left font-italic" style="font-family: 'Dancing Script';">Number one supplier of fruits products from Indonesia
                         </h1>
                         <hr class="divider" />
                     </div>
