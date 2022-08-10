@@ -24,9 +24,9 @@
         <div class="carousel-inner">
             <div class="carousel-item active" style="background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 25%), url('../assets/img/ricefield.jpg');">
                 <div class="darkoverlay"></div>
-                <div class="carousel-caption text-start">
+                <div class="carousel-caption text-center">
                     <div class="align-self-end">
-                        <h3 class="text-white-75 text-lg-left mb-8">Sanmar Nusantara</h3>
+
                         <h1 class="text-white text-lg-left font-italic">Number one supplier of spice products from Indonesia
                         </h1>
                         <hr class="divider" />
@@ -38,9 +38,9 @@
             </div>
             <div class="carousel-item" style="background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 25%), url('../assets/img/sanmar_bg.jpg');">
                 <div class="darkoverlay"></div>
-                <div class="carousel-caption text-start">
+                <div class="carousel-caption text-center ">
                     <div class="align-self-end">
-                        <h3 class="text-white-75 text-lg-left mb-8">Sanmar Nusantara</h3>
+
                         <h1 class="text-white text-lg-left font-italic">Number one supplier of fruits products from Indonesia
                         </h1>
                         <hr class="divider" />

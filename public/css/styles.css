@@ -4057,6 +4057,7 @@ textarea.form-control-lg {
   font-size: 1.5rem;
   text-decoration: none;
   white-space: nowrap;
+  margin-left: 20px;
 }
 @media (max-width: 650px) {
   .navbar-brand {
