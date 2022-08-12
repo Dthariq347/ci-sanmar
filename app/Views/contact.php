@@ -27,7 +27,7 @@
                     <?= csrf_field(); ?>
                     <!-- Name input-->
                     <div class="form-floating mb-3">
-                        <input class="form-control" id="name" name="name" value="<?= old('name'); ?>" type="text" placeholder="Enter your name..." required />
+                        <input class="form-control" id="name" name="name" value="<?= old('name'); ?>" type="text" placeholder="Enter your name..." autocomplete="off" required />
                         <label for="name">Full name</label>
                         <span class="text-danger">
                             <?= $validation->getError('name'); ?>
@@ -36,7 +36,7 @@
                     </div>
                     <!-- Email address input-->
                     <div class="form-floating mb-3">
-                        <input class="form-control" id="email" name="email" value="<?= old('email'); ?>" type="email" placeholder="name@example.com" required />
+                        <input class="form-control" id="email" name="email" value="<?= old('email'); ?>" type="email" placeholder="name@example.com" autocomplete="off" required />
                         <label for="email">Email address</label>
                         <div class="text-danger">
                             <?= $validation->getError('email'); ?>
@@ -46,7 +46,7 @@
                     </div>
                     <!-- Phone number input-->
                     <div class="form-floating mb-3">
-                        <input class="form-control" id="phone" name="phone" type="tel" value="<?= old('phone'); ?>" placeholder="(123) 456-7890" required />
+                        <input class="form-control" id="phone" name="phone" type="tel" value="<?= old('phone'); ?>" placeholder="(123) 456-7890" autocomplete="off" required />
                         <label for="phone">Phone number</label>
                         <div class="text-danger">
                             <?= $validation->getError('phone'); ?>
@@ -55,7 +55,7 @@
                     </div>
                     <!-- Message input-->
                     <div class="form-floating mb-3">
-                        <textarea class="form-control" id="message" name="message" type="text" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
+                        <textarea class="form-control" id="message" name="message" type="text" placeholder="Enter your message here..." style="height: 10rem" autocomplete="off" required></textarea>
                         <label for="message">Message</label>
                         <div class="text-danger">
                             <?= $validation->getError('message'); ?>
