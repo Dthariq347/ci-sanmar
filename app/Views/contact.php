@@ -23,7 +23,7 @@
                 <!-- To make this form functional, sign up at-->
                 <!-- https://startbootstrap.com/solution/contact-forms-->
                 <!-- to get an API token!-->
-                <form action="/home/sendmail" method="post" id="contactForm" enctype="multipart/form-data">
+                <form action="/home/sendmail#contactForm" method="post" id="contactForm" enctype="multipart/form-data">
                     <?= csrf_field(); ?>
                     <!-- Name input-->
                     <div class="form-floating mb-3">
