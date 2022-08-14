@@ -83,7 +83,8 @@
                     </div> -->
                     <!-- Google captcha -->
                     <div class="captcha_wrapper">
-                        <div class="g-recaptcha" data-sitekey="6LfOwwUhAAAAABE904fR_32xj2Lrbtkrbgz7QHtW"></div>
+                        <!-- Data site-key bisa diisi untuk google recaptcha-->
+                        <div class="g-recaptcha" data-sitekey=""></div>
                     </div>
                     <div class="text-danger">
                         <?= $validation->getError('g-recaptcha'); ?>
