@@ -57,11 +57,13 @@ class Home extends BaseController
             $message = $this->request->getVar('message');
             $mail = new PHPMailer(true);
             try {
+                //untuk konfigurasi yang lebih jelas dan detail, lihat link refresi guide yang sudah diberikan
                 $mail->isSMTP();
-                $mail->Host = 'smtp.gmail.com';
+                $mail->Host = '';
                 $mail->SMTPAuth = true;
-                $mail->Username = 'testdummyletter@gmail.com';
-                $mail->Password = 'dvscwmqsnbhanpbc';
+                //bisa diisi dengan username webmail dan pass webamil 
+                $mail->Username = '';
+                $mail->Password = '';
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                 $mail->Port = '587';
                 $mail->SMTPOptions = array(
@@ -72,8 +74,9 @@ class Home extends BaseController
                     )
                 );
 
-                $mail->setFrom('testdummyletter@gmail.com');
-                $mail->addAddress('testdummyletter@gmail.com');
+                //bisa diisi dengan webmail 
+                $mail->setFrom('');
+                $mail->addAddress('');
 
                 $mail->isHTML(true);
                 $mail->Subject = "Ini test php mailer";
@@ -99,7 +102,8 @@ class Home extends BaseController
 
             $recaptchaResponse = trim($this->request->getVar('g-recaptcha-response'));
             $userIp = $this->request->getIPAddress();
-            $secret = '6LfOwwUhAAAAAKQwMG682TJJ02VRG48Pd7kckfOf';
+            //bisa diisi dengan secreat google recaptcha yang telah dibuat
+            $secret = '';
 
             $credential = array(
                 'secret' => $secret,
@@ -128,4 +132,4 @@ class Home extends BaseController
         }
     }
 }
-// Indra coba edit controller lewat github code editor
+
